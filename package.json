@@ -1,0 +1,22 @@
+{
+  "name": "yii2-ajaxform-js",
+  "version": "0.0.1",
+  "description": "Yii2 Ajax Form",
+  "main": "src/yii.ajaxForm.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rkit/yii2-ajaxform-js"
+  },
+  "keywords": [
+    "yii2",
+    "form",
+    "ajax",
+    "ajax-form"
+  ],
+  "author": "Igor Romanov <rkit.ru@gmail.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/rkit/yii2-ajaxform-js/issues"
+  },
+  "homepage": "https://github.com/rkit/yii2-ajaxform-js"
+}
