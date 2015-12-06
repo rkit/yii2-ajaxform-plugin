@@ -18,18 +18,10 @@ npm install yii2-ajaxform-plugin --save
 
 ```js
 $('.ajax-form').yiiAjaxForm({
-    beforeSend: function() {
-      // …
-    },
-    error: function() {
-      // …
-    },
-    complete: function() {
-      // …
-    },
-    success: function(data) {
-      // …
-    },
+    beforeSend: function() {},
+    error: function() {},
+    complete: function() {},
+    success: function() {},
   });
 ```
 
