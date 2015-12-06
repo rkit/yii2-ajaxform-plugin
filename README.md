@@ -9,7 +9,7 @@ composer require rkit/yii2-ajaxform-plugin
 ```
 
 Then, register asset
-```
+```php
 rkit\yii2\plugins\ajaxform\AjaxFormAsset::register($this);
 ```
 
@@ -20,7 +20,7 @@ npm install yii2-ajaxform-plugin --save
 
 Then, add the module
 
-```
+```js
 require('yii2-ajaxform-plugin');
 ```
 
