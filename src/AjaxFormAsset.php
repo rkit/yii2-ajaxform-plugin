@@ -12,7 +12,7 @@ use yii\web\AssetBundle;
 
 class AjaxFormAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/rkit/yii2-ajaxform-js/src';
+    public $sourcePath = '@vendor/rkit/yii2-ajaxform-plugin/src';
     public $js = [
         'yii.ajaxForm.js',
     ];
