@@ -4,12 +4,11 @@ This is the plugin used by the yii\widgets\ActiveForm widget
 
 ## Installing using Composer
 
-Installing using Composer for yii-assets
 ```
 composer require rkit/yii2-ajaxform-plugin
 ```
 
-and register asset
+Then, register asset
 ```
 rkit\yii2\plugins\ajaxform\AjaxFormAsset::register($this);
 ```
@@ -19,7 +18,7 @@ rkit\yii2\plugins\ajaxform\AjaxFormAsset::register($this);
 npm install yii2-ajaxform-plugin --save
 ```
 
-and add the module
+Then, add the module
 
 ```
 require('yii2-ajaxform-plugin');
