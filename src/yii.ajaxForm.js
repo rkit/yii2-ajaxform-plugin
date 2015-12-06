@@ -1,7 +1,8 @@
 /**
  * Yii Ajax Form
  *
- * This is the plugin used by the yii\widgets\ActiveForm widget.
+ * A simple plugin for ajax forms
+ * The plugin for use with the yii\widgets\ActiveForm
  *
  * @copyright Copyright (c) 2015 Igor Romanov
  * @license [New BSD License](http://www.opensource.org/licenses/bsd-license.php)
