@@ -1,6 +1,6 @@
 # yii2-ajaxform-plugin
 
-This is the plugin used by the yii\widgets\ActiveForm widget
+A simple plugin for ajax forms, used by the yii\widgets\ActiveForm widget
 
 ## Installing using Composer
 
