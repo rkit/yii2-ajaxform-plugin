@@ -10,7 +10,7 @@ namespace rkit\yii2\plugins\ajaxform;
 
 use yii\web\AssetBundle;
 
-class AjaxFormAsset extends AssetBundle
+class Asset extends AssetBundle
 {
     public $sourcePath = '@vendor/rkit/yii2-ajaxform-plugin/src';
     public $js = [

@@ -10,7 +10,7 @@ composer require rkit/yii2-ajaxform-plugin
 
 Then, register asset
 ```php
-rkit\yii2\plugins\ajaxform\AjaxFormAsset::register($this);
+rkit\yii2\plugins\ajaxform\Asset::register($this);
 ```
 
 ## Installing using NPM
