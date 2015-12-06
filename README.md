@@ -2,7 +2,7 @@
 
 This is the plugin used by the yii\widgets\ActiveForm widget
 
-## Installation
+## Installing using Composer
 
 Installing using Composer for yii-assets
 ```
@@ -14,7 +14,7 @@ and register asset
 rkit\yii2\plugins\ajaxform\AjaxFormAsset::register($this);
 ```
 
-or installing using NPM
+## Installing using NPM
 ```
 npm install yii2-ajaxform-plugin --save
 ```
