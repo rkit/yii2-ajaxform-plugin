@@ -1,0 +1,80 @@
+# yii2-ajaxform-plugin
+
+This is the plugin used by the yii\widgets\ActiveForm widget
+
+## Installation
+
+Installing using Composer for yii-assets
+```
+composer require rkit/yii2-ajaxform-plugin
+```
+
+or installing using NPM
+```
+npm install yii2-ajaxform-plugin --save
+```
+
+## Usage
+
+```js
+$('.ajax-form').yiiAjaxForm({
+    beforeSend: function() {
+      // …
+    },
+    error: function() {
+      // …
+    },
+    complete: function() {
+      // …
+    },
+    success: function(data) {
+      // …
+    },
+  });
+```
+
+You can access to the form and button that caused the the form submit event
+```js
+var $form = $(this);
+var $button = $(this).data('yiiActiveForm').submitObject;
+```
+
+You can invoke validation method
+```js
+$(this).yiiActiveForm('updateMessages', data);
+```
+
+## Example
+
+```js
+$('.ajax-form').yiiAjaxForm({
+    beforeSend: function() {
+      var $button = $(this).data('yiiActiveForm').submitObject;
+      if ($button) {
+        $button.prop('disabled', true);
+      }
+    },
+    complete: function() {
+      var $button = $(this).data('yiiActiveForm').submitObject;
+      if ($button) {
+        $button.prop('disabled', false);
+      }
+    },
+    success: function(data) {
+      if (data.redirect) {
+        document.location.href = data.redirect;
+      } else if (data.reload) {
+        location.reload(true);
+      }
+      // show validation error messages
+      $(this).yiiActiveForm('updateMessages', data);
+    },
+  });
+
+```
+
+If installed via NPM, add the module
+
+```
+require('yii2-ajaxform-plugin');
+```
