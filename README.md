@@ -32,9 +32,10 @@ $('.ajax-form').yiiAjaxForm({
     beforeSend: function() {},
     error: function() {},
     complete: function() {},
-    success: function() {},
+    success: function(data) {},
   });
 ```
+> available options [$.ajax options](http://api.jquery.com/jquery.ajax)
 
 You can access to the form and button that caused the the form submit event
 ```js
