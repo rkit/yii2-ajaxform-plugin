@@ -8,8 +8,8 @@
  * @license [New BSD License](http://www.opensource.org/licenses/bsd-license.php)
  * @author Igor Romanov <rkit.ru@gmail.com>
  */
-(function($) {
-  $.fn.yiiAjaxForm = function(options) {
+(function ($) {
+  $.fn.yiiAjaxForm = function (options) {
     function getFormData($form, formSettings) {
       var $button = formSettings.submitObject;
       var data = '&' + formSettings.settings.ajaxParam + '=' + $form.attr('id');
