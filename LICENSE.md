@@ -1,4 +1,4 @@
-Copyright (c) 2014, Igor Romanov
+Copyright (c) 2015, Igor Romanov
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without

@@ -4,7 +4,7 @@
     "keywords": ["yii2", "extension", "ajax", "form", "ajax-form"],
     "homepage": "https://github.com/rkit/yii2-ajaxform-plugin",
     "type": "yii2-extension",
-    "license": "BSD-3-Clause",
+    "license": "MIT",
     "authors": [
         {
             "name": "Igor Romanov",

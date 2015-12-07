@@ -5,7 +5,7 @@
  * The plugin for use with the yii\widgets\ActiveForm
  *
  * @copyright Copyright (c) 2015 Igor Romanov
- * @license [New BSD License](http://www.opensource.org/licenses/bsd-license.php)
+ * @license [MIT](http://opensource.org/licenses/MIT)
  * @author Igor Romanov <rkit.ru@gmail.com>
  */
 (function ($) {
