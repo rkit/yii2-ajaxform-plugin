@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/rkit/yii2-ajaxform-plugin/issues"
   },
-  "homepage": "https://github.com/rkit/yii2-ajaxform-plugin"
+  "homepage": "https://github.com/rkit/yii2-ajaxform-plugin",
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^2.0.0"
+  }
 }
