@@ -76,3 +76,10 @@ $('.ajax-form').yiiAjaxForm({
   });
 
 ```
+
+## Development
+
+### Coding Standard
+
+- PHP Code Sniffer — [phpcs.xml](./phpcs.xml)
+- ESLint — [.eslintrc](./.eslintrc)
