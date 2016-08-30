@@ -27,7 +27,7 @@ require('yii2-ajaxform-plugin');
 
 ## Documentation
 
-[Guide](/guide)
+- [Guide](/guide)
 
 ## Development
 
