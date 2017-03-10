@@ -3,11 +3,20 @@
     <description>Based on PSR-2</description>
 
     <rule ref="PSR2">
+        <!-- exclude rules -->
         <exclude name="PSR1.Classes.ClassDeclaration"/>
         <exclude name="PSR1.Files.SideEffects"/>
         <exclude name="Squiz.WhiteSpace.SuperfluousWhitespace"/>
+        <!-- exclude files -->
     </rule>
 
+    <!-- Use single quote -->
+    <rule ref="Squiz.Strings.DoubleQuoteUsage" />
+    <rule ref="Squiz.Strings.DoubleQuoteUsage.ContainsVar">
+        <severity>0</severity>
+    </rule>
+
+    <!-- Line Length -->
     <rule ref="Generic.Files.LineLength">
         <properties>
             <property name="lineLimit" value="120"/>
